@@ -1,0 +1,13 @@
+# .html Removeing
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+# Defauult Landing page
+
+DirectoryIndex languages.html
