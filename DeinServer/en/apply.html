@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.min.css" type="text/css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">  
+    <title>DeinServer.net | Apply</title>
+</head>
+<body>
+    <!-- NavBar -->
+    <nav>
+      <input id="nav-toggle" type="checkbox">
+      <div class="logo">DEIN<strong>SERVER</strong>.NET</div>
+      <ul class="links">
+        <li><a href="home"> <nav-a>Home</nav-a> </a></li>
+        <li><a href="info"> <nav-b>Information</nav-b> </a></li>
+        <li><a href="soon"> <nav-a>Server</nav-a> </a></li>
+        <li><a href="bewerbung"> <nav-b>Apply</nav-b> </a></li>
+        <div class="translate">
+          <li><a href="../languages">Languages</a></li>
+        </div>
+    </ul>
+      <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+      </label>
+  </nav>
+    <div class="container">
+    </div>
+    <!-- NavBar Ende-->
+
+    <div class="apply-title">
+        <h1>APPLY</h1>
+        <h2> Here you can Apply <br>
+             The requirements are <a href="requirements" target="_blank">Here</a>
+        </h2>
+    </div>
+    <form action="../apply.php" id="apply-form" method="post">
+        <input type="text" name="name" class="form-controll" placeholder="What's your name and what should we call you?" required>
+        <br>
+        <input type="text" name="ignname" class="form-controll" placeholder="What's your name in-game">
+        <br>
+        <input type="number" name="alter" class="form-controll" placeholder="How old are you?" required>
+        <br>
+        <input type="text" name="dc" class="form-controll" placeholder="Please tell us your Discord Name + Tagg">
+        <br>
+        <input type="email" name="email" class="form-controll" placeholder="Please give us your email address">
+        <br>
+        <input type="text" name="bewerben-als" class="form-controll" required placeholder="What do you want to apply for?" row="2">
+        <br>
+        <input type="text" name="erfahrung" class="form-controll" placeholder="Do you already have experience?" required>
+        <br>
+        <textarea name="über" class="form-controll" row="4" required placeholder="Tell us about yourself!" required></textarea> <br>
+        <textarea name="stärken" class="form-controll" row="4" placeholder="Name your strengths and weaknesses" required></textarea>
+        <br>
+        <input type="checkbox" name="bestätigen" value="" class="check-controll" required> <br>
+        <label for="vehicle2" class="check-controll-text"> Please confirm that the application status will be immediately rejected!</label><br>
+        <br>
+        <input type="submit" class="form-controll submit" value="SEND APPLICATION">
+    </form>
+
+</body>
+
+    <!-- Main Ende -->
+    
+
+  </body>
+  <footer>
+      <!-- Footer  -->
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>About us</h2>
+              <a href="info">Informations</a>
+              <a href="soon">Team</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Contact Us</h2>
+              <a href="https://discord.gg/gKKkVwHCzq" target="_blank">Discord</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Youtube</h2>
+              <a href="https://www.youtube.com/channel/UCwiUKVeM4dnozdq-PcTABRg" target="_blank">NichtMxrlin</a>
+              <a href="https://www.youtube.com/channel/UCpahIFuKOGuRwZKJSGN37Bg" target="_blank">NichtVERAX</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Social Media</h2>
+              <a href="https://www.youtube.com/channel/UCrFiKLRDv_lO8QC9LDkwpsg" target="_blank">Youtube</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo">Dein<oase-a>Server</oase-a>.net</a>
+            </div>
+            <p class="website__rights">© 2021 DeinServer.net </p>
+            <div class="social__icons">
+              <a href="en/soon" class="social__icon--link" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="en/soon" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="en/soon" class="social__icon--link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="en/soon" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="en/soon" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    <!-- Footer Ende -->
+  </footer>
+
+<script src="js/app.js"></script>
+</html>
